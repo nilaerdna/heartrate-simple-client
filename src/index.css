@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: UniSansHeavy;
+    src: url('./fonts/UniSans-Heavy.otf');
+}
+
+@font-face {
+    font-family: SFUIDisplayBold;
+    src: url('./fonts/SFUIDisplay-Bold.ttf');
+}
+
+* {
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.bpm {
+    font-family: SFUIDisplayBold;
+}
+
+.heartRate {
+    font-family: UniSansHeavy;
+}
