@@ -9,7 +9,7 @@ function App() {
 
     const getDataFromServer = () => {
         axios
-            .get('http://localhost:3000/get/1')
+            .get('https://heartrate-server.andrealin3110.repl.co/get/1')
             .then((response) => {
                 const responseJson = response['data'];
                 setHeartRate(responseJson['data'][0]['hr']);
