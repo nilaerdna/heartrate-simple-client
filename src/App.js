@@ -27,8 +27,10 @@ function App() {
     return (
         <>
             {/* Main container */}
-            <div className="h-screen bg-blue-500 dark:bg-gray-900 flex justify-center items-center">
-                <div className="p-5 rounded-full  bg-gradient-to-b from-white dark:from-gray-700 to-transparent flex justify-center items-center">
+            <div className="h-screen relative bg-blue-500 dark:bg-gray-900 flex justify-center items-center overflow-hidden">
+                <span className="animate-ping absolute h-64 w-64 rounded-full bg-white opacity-25 z-0 pulse-delay" />
+                <span className="animate-ping absolute h-72 w-72 rounded-full bg-white opacity-25 z-0" />
+                <div className="p-5 rounded-full bg-gradient-to-b from-white dark:from-gray-700 to-transparent flex justify-center items-center z-10">
                     {/* Background White Circle */}
                     <div className="p-5 rounded-full bg-white dark:bg-gray-600 flex justify-center items-center">
                         {/* Background Gradient Circle */}

@@ -21,6 +21,10 @@
     -ms-user-select: none;
 }
 
+.pulse-delay {
+    animation-delay: 0.5s;
+}
+
 .bpm {
     font-family: SFUIDisplayBold;
 }
