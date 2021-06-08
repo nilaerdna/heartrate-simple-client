@@ -12,7 +12,7 @@ It's a simple React application, you can run it with `npm start` or build it wit
 
 ## Built With
 - [React.js](https://reactjs.org/) - A JavaScript library for building user interfaces.
-- [Tailwindcss](https://tailwindcss.com/) - Rapidly build modern websites without ever leaving your HTML.
+- [TailwindCSS](https://tailwindcss.com/) - Rapidly build modern websites without ever leaving your HTML.
 - [react-icons](https://react-icons.github.io/react-icons/) - Include popular icons in your React projects easily with react-icons.
 - [axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and Node.js.
 
